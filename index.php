@@ -77,7 +77,7 @@
 	
 	<div class="hoge">
 		<h3>↓つかいかた↓</h3>
-			※ここに画像
+			<img src="drag.png" border="1">
 			<ol>
 				<li>アイコンを、セパレータを入れたいところにドラッグします。
 				<li>完了！
