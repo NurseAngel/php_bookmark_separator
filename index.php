@@ -39,7 +39,7 @@
 	$(function(){
 		$('input').addClass("ui-widget ui-state-default ui-corner-all");
 		$('#form_input_reset').on('click', function(){
-			location.href = "?";
+			location.href = "/sep/";
 		});
 	});
 	</script>
@@ -65,19 +65,20 @@
 </head>
 <body>
 	
-	<h2>Chromeセパレータ</h2><br />
+	<h2>Chromeのブックマーク用区切り線</h2><br />
 	
 	<div class="hoge">
 		<h3>↓せつめい↓</h3>
 		<div class="hoge">
 			Q：ここはなに？<br />
 			A：Chromeブラウザで、自由に区切り線を入れられるよ！<br />
+			Chrome以外のブラウザでも使えるよ！<br />
 		</div>
 	</div>
 	
 	<div class="hoge">
 		<h3>↓つかいかた↓</h3>
-			<img src="drag.png" border="1">
+			<img src="/sep/drag.png" border="1">
 			<ol>
 				<li>アイコンを、セパレータを入れたいところにドラッグします。
 				<li>完了！
@@ -87,7 +88,7 @@
 	
 	<div class="hoge">
 		<h3>↓区切り線を変更できるよ↓</h3>
-		<form method="get" enctype="multipart/form-data" action="" id="form_tag">
+		<form method="get" enctype="multipart/form-data" action="/sep/" id="form_tag">
 			<div class="form_text">
 				区切りに使いたい文字列を入力
 			</div>

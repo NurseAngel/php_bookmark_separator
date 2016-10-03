@@ -1,0 +1,4 @@
+# rewrite
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)/([0-9]+)$ index.php?s=$1&c=$2 [QSA,L]
